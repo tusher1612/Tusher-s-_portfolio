@@ -1,0 +1,207 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+
+        "ko": {
+            "title": "포트폴리오",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**포트폴리오**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "App", "plural": "Apps"},
+                        "fr": {"singular": "App", "plural": "Apps"},
+                        "ko": {"singular": "앱", "plural": "앱들"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "es": {"singular": "Sitio web", "plural": "Web"},
+                        "fr": {"singular": "Site web", "plural": "Web"},
+                        "ko": {"singular": "웹사이트", "plural": "웹"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
+                    }
+                }
+            ],
+
+            "items": [
+                    
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-boxes-packing",
+                        "faColors": {"bg": "#FA7275", "fill": "white"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://storage-management-solution-five.vercel.app/sign-in"},
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/tusher1612/storage-management-solution?tab=readme-ov-file#features"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Storage Management System",
+                            "text": "A simple, yet powerful platform that makes storing, organizing, and sharing your files effortless. Built with Next.js 15 and Appwrite Node SDK  it’s designed to take the stress out of file management.",
+                            "tags": ["React 19", "Next.js 15", "Appwrite","TypeScript ","TailwindCSS","ShadCN"]
+                        },
+                        "es": {
+                            "title": "SmartCash",
+                            "text": "Un sitio web storage construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
+                            "tags": ["Next.js"]
+                        },
+                        "fr": {
+                            "title": "SmartCash",
+                            "text": "Un site web storage construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
+                            "tags": ["Next.js"]
+                        },
+                        "ko": {
+                            "title": "SmartCash",
+                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
+                            "tags": ["Next.js", "금융", "돈"]
+                        }
+                    }
+                },
+
+                
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-rocket",
+                        "faColors": {"bg": "#010102", "fill":"#6698F8" }
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://thunder-craft-ai-caption-generator.vercel.app/"},
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/tusher1612/thunderCraft_ai_captionGenerator"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "ThreadCraft AI",
+                            "text": "ThreadCraft AI makes creating social media content a breeze! Generate engaging Twitter threads, Instagram captions, and LinkedIn posts with ease,<b> all powered by Next.js and AI</b>",
+                            "tags": ["Next.js ", "TypeScript ", "Google Generative AI"]
+                        },
+                        "es": {
+                            "title": "ThreadCraft AI",
+                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
+                            "tags": ["Next.js ", "TypeScript ", "Google Generative AI"]
+                        },
+                        "fr": {
+                            "title": "ThreadCraft AI",
+                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
+                            "tags": ["Next.js ", "TypeScript ", "Google Generative AI"]
+                        },
+                        "ko": {
+                            "title": "ThreadCraft AI",
+                            "text": "<b>Next Js</b>와 TypeScript 로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
+                            "tags": ["Next.js ", "TypeScript ", "Google Generative AI"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-podcast",
+                        "faColors": {"bg": "#15171C", "fill": "#F97535"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://podcast-bice.vercel.app/sign-in"},
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/tusher1612/podcast"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "podcast",
+                            "text": "Revolutionize your podcast experience with our AI-powered platform—transform text into lifelike audio, create stunning thumbnails, and enjoy <b>flawless, uninterrupted playback, all in one seamless solution.</b>",
+                            "tags": ["Next.js", "Convex", "OpenAI"]
+                        },
+                        "es": {
+                            "title": "podcast",
+                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
+                            "tags": ["Next.js", "Convex", "OpenAI"]
+                        },
+                        "fr": {
+                            "title": "podcast",
+                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+                            "tags": ["Next.js", "Convex", "OpenAI"]
+                        },
+                        "ko": {
+                            "title": "podcast",
+                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Next.js", "음악", "록"]
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}
