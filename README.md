@@ -30,14 +30,7 @@ npm install
 npm run dev
 ```
 
-4. To temporarily deactivate the preload animation during theme adjustments, go to `public/data/settings.json` and modify the following field:
 
-```
-"preloader": {
-    "enabled": false,
-    (...)
-},
-```
 
 ## Template Customization
 
@@ -60,54 +53,13 @@ Simply modify these variables to customize the layout to your liking.
 
 To add or remove languages, open `public/data/settings.json` and modify the `supportedLanguages` field as needed. Use the `default` property to specify the fallback language that should be used if the application doesn't support the user's preferred language.
 
-```json
-{
-  "supportedLanguages": [
-    {
-      "name": "English",
-      "id": "en",
-      "flagUrl": "images/flags/en.png",
-      "default": true
-    },
-
-    {
-      "name": "日本語",
-      "id": "ja",
-      "flagUrl": "images/flags/ja.png"
-    }
-  ]
-}
-```
-
-The `public/images/flags/` folder already contains a collection of flags for commonly used languages. If you require a specific flag icon that isn't there, you can download it [here](https://www.flaticon.com/packs/countrys-flags) for free.
-
 To **deactivate support** for multiple languages, keep only a single language within the array. This will automatically hide the language picker menu.
 
 ### 4. Adding, removing and reordering sections
 
 Inside the `public/data/structure.json` file, you will find two arrays: one for **sections** and the other for **categories**. Every section **must** be linked to a corresponding category, which is essential for grouping sections in the mobile navigation.
 
-Adding, removing or reordering the sections can be achieved by making modifications to the `sections` array:
 
-```json
-{
-  "sections": [
-    {
-      "id": "about",
-      "categoryId": "home",
-      "jsonPath": "/data/sections/cover.json",
-      "faIcon": "fa-solid fa-address-card"
-    },
-
-    {
-      "id": "education",
-      "categoryId": "background",
-      "jsonPath": "/data/sections/education.json",
-      "faIcon": "fa-solid fa-graduation-cap"
-    }
-  ]
-}
-```
 
 Each section entry comprises the following fields:
 
@@ -125,25 +77,6 @@ Each section JSON file contains two main fields:
 - `locales` ➔ Translations for the section's general information, such as the title.
 - `articles` ➔ A list of components that render the section and its respective content.
 
-You can add or remove articles from sections by editing the items of the `articles` array:
-
-```json
-{
-  "articles": [
-    {
-      "component": "ArticleTestimonials",
-      "locales": {},
-      "items": []
-    },
-
-    {
-      "component": "ArticleInfoBlock",
-      "locales": {},
-      "items": []
-    }
-  ]
-}
-```
 
 **Important note**: each type of article may require a different item structure, so refer to existing examples for guidance on how to structure the JSON object for each type of component.
 
@@ -157,24 +90,6 @@ const { getString } = useLanguage();
 
 const translation = getString("close");
 console.log(translation); // Will print "Close" (en) or "Cerrar" (es)
-```
-
-For translations specific to sections, you can create a custom `locales` field inside the section's JSON file:
-
-```json
-{
-  "locales": {
-    "en": {
-      "hello": "Hello!",
-      "age": "Age"
-    },
-
-    "es": {
-      "hello": "Hola!",
-      "age": "Edad"
-    }
-  }
-}
 ```
 
 ### 7. Contact form configuration
