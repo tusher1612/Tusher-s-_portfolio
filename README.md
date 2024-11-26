@@ -1,6 +1,6 @@
-My portFolio Websitte
+**My portFolio Website**
 
-Key features:
+**Key features:**
 
 - Lightweight and fully responsive.
 - Adapts perfectly to mobile screens.
