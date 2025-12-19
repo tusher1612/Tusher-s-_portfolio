@@ -1,0 +1,67 @@
+{
+    "locales": {
+        "en": {
+            "title": "Certificates",
+            "title_menu": "Certificates",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Certificates**"
+        },
+        "es": {
+            "title": "Certificados",
+            "title_menu": "Certificados",
+            "title_long_prefix": "Echa un vistazo a",
+            "title_long": "Mis **Certificados**"
+        },
+        "fr": {
+            "title": "Certificats",
+            "title_menu": "Certificats",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mes **Certificats**"
+        },
+        "ko": {
+            "title": "자격증",
+            "title_menu": "자격증",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**자격증**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certificates_grid",
+            "component": "ArticleCertificates",
+            "config": {},
+            "locales": {
+                "en": {"title": "My **Certifications**"},
+                "es": {"title": "Mis **Certificaciones**"},
+                "fr": {"title": "Mes **Certifications**"},
+                "ko": {"title": "내 **자격증**"}
+            },
+
+            "items": [
+                {
+                    "img": "images/pictures/certificates/ai.png",
+                    "locales": {
+                        "en": {
+                            "title": "5-Day AI Agents Intensive Course with Google Badge",
+                            "dateInterval": "Google • 2025",
+                            "text": "Earned the 5-Day AI Agents Intensive Course with Google Badge in 2025. Comprehensive training on AI agents, machine learning fundamentals, and Google's AI technologies for building intelligent applications."
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/certificates/solveio.jpeg",
+                    "locales": {
+                        "en": {
+                            "title": "Top 100 Teams - Sheba Platform Limited Hackathon",
+                            "dateInterval": "Sheba Platform Limited • 2025",
+                            "text": "Excited to share my certificate for being selected among the Top 100 teams in the Sheba Platform Limited Hackathon! A great journey full of learning and collaboration in developing innovative solutions."
+                        }
+                    }
+                }
+        
+             
+            ]
+        }
+    ]
+}

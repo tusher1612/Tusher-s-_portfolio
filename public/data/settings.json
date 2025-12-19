@@ -24,7 +24,7 @@
     },
 
     "status": {
-        "visible": true,
+        "visible": false,
         "available": true,
 
         "locales": {

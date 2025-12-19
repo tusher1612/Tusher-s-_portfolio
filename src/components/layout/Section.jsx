@@ -8,6 +8,7 @@ import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 import {useUtils} from "/src/helpers/utils.js"
 
 import ArticleCards from "/src/components/articles/ArticleCards.jsx"
+import ArticleCertificates from "/src/components/articles/ArticleCertificates.jsx"
 import ArticleContactForm from "/src/components/articles/ArticleContactForm.jsx"
 import ArticleGrid from "/src/components/articles/ArticleGrid.jsx"
 import ArticleInfoBlock from "/src/components/articles/ArticleInfoBlock.jsx"
@@ -33,6 +34,7 @@ const TransitionClasses = {
 
 const ARTICLES = {
     ArticleCards,
+    ArticleCertificates,
     ArticleContactForm,
     ArticleGrid,
     ArticleInfoBlock,
@@ -159,7 +161,7 @@ function SectionHeader({section}) {
 
 function SectionContent({articles}) {
     const shouldAddSpacerAfterTitle = false
-
+   console.log("Articles:",articles)
     return (
         <div className={`section-content ${shouldAddSpacerAfterTitle ? 'mt-md-5' : ''}`}>
             {articles.map((article, key) => {

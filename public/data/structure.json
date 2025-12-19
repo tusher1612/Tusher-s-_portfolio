@@ -35,7 +35,12 @@
             "faIcon": "fa-solid fa-folder-open"
         },
 
-    
+        {
+            "id": "certificates",
+            "categoryId": "background",
+            "jsonPath": "/data/sections/certificates.json",
+            "faIcon": "fa-solid fa-certificate"
+        },
 
         {
             "id": "contact",
