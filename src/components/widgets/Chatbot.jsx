@@ -5,7 +5,7 @@ import { useData } from '/src/providers/DataProvider.jsx'
 const Chatbot = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [messages, setMessages] = useState([
-        { type: 'bot', text: "Hi! I'm Tusher's AI assistant. I know everything about his frontend development experience, technical skills , projects , education, certifications, and more. What would you like to know?" }
+        { type: 'bot', text: "Hi! I'm Tusher's AI assistant. I know everything about his full stack development experience, technical skills, projects, education, certifications, and more. What would you like to know?" }
     ])
     const [input, setInput] = useState('')
     const [isTyping, setIsTyping] = useState(false)
@@ -77,7 +77,7 @@ const Chatbot = () => {
         
         // Technical Skills
         if (q.includes('skill') || q.includes('technology') || q.includes('tech') || q.includes('stack')) {
-            return "Tusher is a Frontend Developer. His technical stack includes: **Frontend**: React.js, Next.js, React Native, TypeScript, JavaScript (ES6+), HTML5, CSS3, SCSS, Tailwind CSS, Bootstrap, Redux, Zustand, Framer Motion. **Backend**: Node.js, Express.js, Nest.js, Python. **Databases**: PostgreSQL, MySQL, MongoDB. **Cloud & DevOps**: Kubernetes, Docker, Git, GitHub, Vercel, Netlify, Firebase, Clerk Auth, Supabase."
+            return "Tusher is a Full Stack Engineer specializing in scalable applications. His technical stack includes: **Frontend**: React.js, Next.js, React Native, TypeScript, JavaScript (ES6+), HTML5, CSS3, SCSS, Tailwind CSS, Bootstrap, Redux, Zustand, Framer Motion. **Backend**: Node.js, Express.js, NestJS, Python. **Databases**: PostgreSQL, MySQL, MongoDB, Supabase. **Cloud & DevOps**: Kubernetes, Docker, Git, GitHub, Vercel, Netlify, Firebase, Clerk Auth, Appwrite."
         }
         
         // Experience & Work
@@ -102,7 +102,7 @@ const Chatbot = () => {
         
         // Certificates
         if (q.includes('certificate') || q.includes('certification') || q.includes('course')) {
-            return "Tusher's certifications include: 5-Day AI Agents Intensive Course with Google Badge (Google, 2025) and Top 100 Teams - Sheba Platform Limited Hackathon (Sheba Platform Limited, 2024)."
+            return "Tusher's certifications include: 5-Day AI Agents Intensive Course with Google Badge (Google, 2025) and Top 100 Teams - Sheba Platform Limited Hackathon (Sheba Platform Limited, 2025)."
         }
         
         // Availability & Notice Period
@@ -130,6 +130,11 @@ const Chatbot = () => {
             return "Tusher specializes in React.js and Next.js development with TypeScript. He's built production-grade admin dashboards, mobile apps with React Native, and has experience with state management (Redux, Zustand), styling (Tailwind CSS, SCSS), and modern React patterns including hooks and context API."
         }
         
+        // Backend/Full Stack specific
+        if (q.includes('backend') || q.includes('fullstack') || q.includes('full stack') || q.includes('nodejs') || q.includes('nestjs')) {
+            return "Tusher has strong backend expertise with Node.js and NestJS for building scalable APIs and microservices. He's experienced with database design and management using PostgreSQL, MySQL, MongoDB, and Supabase. Also skilled in REST APIs, GraphQL, JWT authentication, and cloud deployment."
+        }
+        
         // AI/Modern Tech
         if (q.includes('ai') || q.includes('artificial intelligence') || q.includes('modern')) {
             return "Tusher has hands-on experience with AI integration in web applications. He's worked on AI-powered healthcare platforms, AI-driven CBT workflows, social media content generators using Google Generative AI, and text-to-audio conversion tools with OpenAI."
@@ -141,7 +146,7 @@ const Chatbot = () => {
         }
         
         // Default response
-        return  "Hi! I'm Tusher's AI assistant. I know everything about his frontend development experience, technical skills , projects , education, certifications, and more. What would you like to know?"
+        return  "Hi! I'm Tusher's AI assistant. I know everything about his full stack development experience, technical skills, projects, education, certifications, and more. What would you like to know?"
     }
 
     const handleSend = async () => {

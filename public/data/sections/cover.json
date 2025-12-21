@@ -78,7 +78,7 @@
                 {
                     "value": "Download Resume",
                     "links": [
-                        {"href": "/data/resume/Tusher_01821417230_WebDeveloper.pdf", "download": true}
+                        {"href": "/data/resume/FullStack_Developer .pdf", "download": true}
                     ],
                     "icon": {
                         "img": null,
@@ -107,7 +107,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"text": "<p>I'm a <b>Frontend Developer</b> with 3+ years of experience specializing in <b>React.js, Next.js, and TypeScript</b>. I build production-grade admin dashboards and enterprise frontend systems for international clients.</p><p>Currently working at <b>Cloudly Infotech BD</b>, I've contributed to platforms achieving <b>40% higher conversions</b> and <b>80% lower intake costs</b>. My expertise spans modern frontend frameworks, AI integration, and responsive design.</p><p><b>Notice Period:</b> Currently serving notice period. Last working day: January 31, 2026</p><p>Let's build something amazing together!</p>"},
+                        "en": {"text": "<p>I'm a <b>Full Stack Engineer</b> specializing in scalable React and Next.js applications with proven expertise in delivering measurable business impact across AI-powered healthcare and community platforms. <b>40% higher conversions</b> and <b>80% lower operational costs</b> achieved through performance-driven solutions.</p><p>Expert in modern frontend frameworks, <b>Node.js, NestJS</b> backend development, and database management with <b>PostgreSQL, MySQL, MongoDB, Supabase</b>. Strong focus on AI integration, responsive design, clean architecture and accessibility. Passionate about transforming complex requirements into elegant, user-centric solutions.</p><p><b>Ready to drive your next project to success!</b></p>"},
                         "es": {"text": "<p>Soy un desarrollador Frontend con <b>más de 3 años</b> de experiencia, especializado en desarrollo frontend con React.js, Next.js y TypeScript. También tengo experiencia práctica en entornos de producción.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"},
                         "fr": {"text": "<p>Je suis développeur Frontend avec <b>plus de 3 ans</b> d'expérience, spécialisé dans le développement frontend avec React.js, Next.js et TypeScript. J'ai aussi de l'expérience en production.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"},
                         "ko": {"text": "<p>저는 React.js, Next.js, TypeScript를 전문으로 하는 <b>3년 이상의</b> 경력을 가진 Frontend 개발자입니다. 프로덕션 환경에서의 경험도 있습니다.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다.</p><p><b>당신과 협업</b>하기를 기대하고 있습니다!</p>"}
