@@ -42,7 +42,7 @@
                     "locales": {
                         "en": {
                             "title": "**Frontend** Developer",
-                            "info": "Cloudly Infotech BD • Onsite, BD",
+                            "info": "Cloudly Infotech Limited • Onsite, BD",
                             "text": "<p>Built production-grade admin dashboards and enterprise frontend systems for international clients.</p><ul><li><strong>AnonymousHealth.com (USA)</strong> - Implemented patient intake flows, analytics, AI companion interfaces, scheduling pipelines, and role-based admin UI</li><li>Integrated AI-driven CBT workflows, intake automation, appointment pipeline automation, and clinician support tools</li><li>Contributed to achieving: 40% higher conversions, 80% lower intake costs, 50% fewer appointment no-shows</li><li><strong>InstaCircle Admin Dashboard & Mobile App</strong> - Built comprehensive community management platform using Next.js + Tailwind CSS and React Native</li><li>• Increased member engagement by 35% through intuitive UI/UX design</li><li>• Reduced event management time by 60% with automated workflows</li><li>• Improved fundraising efficiency by 45% with streamlined donation processes</li><li>• Enhanced job posting visibility by 50% with advanced filtering system</li><li>• Boosted daily active users by 40% with seamless mobile experience</li><li>• Increased event attendance by 55% through push notifications and reminders</li></ul>",
                             "tags": ["Next.js", "React.js", "Tailwind CSS", "TypeScript", "AI Integration", "Admin Dashboards"]
                         }
