@@ -78,7 +78,7 @@
                 {
                     "value": "Download Resume",
                     "links": [
-                        {"href": "/data/resume/Tusher_01821417230_Fronted_Engineer.pdf", "download": true}
+                        {"href": "/data/resume/Tusher_01821417230_Frontend_Engineer.pdf", "download": true}
                     ],
                     "icon": {
                         "img": null,
