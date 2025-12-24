@@ -16,10 +16,10 @@
         "profilePictureUrl": "images/pictures/avatar.jpg",
 
         "locales": {
-            "en": {"role": "Web Developer"},
-            "es": {"role": "Desarrollador Web"},
-            "fr": {"role": "Développeur Web"},
-            "ko": {"role": "웹 개발자"}
+            "en": {"role": "Frontend Engineer"},
+            "es": {"role": "Ingeniero Frontend"},
+            "fr": {"role": "Ingénieur Frontend"},
+            "ko": {"role": "프론트엔드 엔지니어"}
         }
     },
 
